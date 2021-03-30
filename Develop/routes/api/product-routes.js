@@ -108,7 +108,7 @@ router.put('/:id', (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
-      // console.log(err);
+      console.log(err);
       res.status(400).json(err);
     });
 });
@@ -122,13 +122,14 @@ router.delete('/:id', async (req, res) => {
       }
     });
 
-    if (!ProductData) {
+    if (!productData) {
       res.status(404).json({ message: 'No product found with this id!' });
       return;
     }
 
-    res.status(200).json(categoryData);
+    res.status(200).json(productData);
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
