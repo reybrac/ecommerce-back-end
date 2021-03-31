@@ -20,6 +20,18 @@ The project is the back end for an e-commerce site. To keep track of products, c
 
 Install NPM modules Sequelize and MySQL database.
 
+see the video below for details on how to run the program.
+
+1. Part 1: https://drive.google.com/file/d/1WhNIOb8_MzLGV0lJ_ItMCJteb9m3ZvmN/view?usp=sharing
+2. Part 2: https://drive.google.com/file/d/1Flc2deoYYQxDzF5DLf7B3y2az3X3m_xn/view?usp=sharing
+3. Part 3: https://drive.google.com/file/d/1R_dprTFgYbt7VLLGCEcYWD-zWKsNUBjV/view?usp=sharing
+
+A GIF from the insomnia section video:
+
+1. Run the program and view/update informaiton in the database:
+
+![alt ecommerce-part3](./Develop/ecommerce-part3.gif)
+
 ## Usage information:
 
 Through this application the user can get a list of all categories, products, or tags. The user can also look up individual items (i.e. categories, products, tags) by their ID, can update the relevant information, or can delete the information by ID.
